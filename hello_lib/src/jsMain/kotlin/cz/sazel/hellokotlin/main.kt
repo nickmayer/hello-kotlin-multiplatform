@@ -14,7 +14,7 @@ fun main(vararg args: String) {
  */
 fun start() {
     val shared = SharedClass(Console(), Math())
-    shared.platform = "JavaScript"
+    shared.platform = "JavaScript (Common)"
     shared.printMe()
     shared.printPrimes(1000)
 }

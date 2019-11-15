@@ -11,7 +11,9 @@ class SharedClass(val console: IConsole, val math: IMath) {
     var platform: String = ""
 
     fun printMe() {
-        console.println("Hello Kotlin!\n\nThis is a shared code between multiple runtimes. Current platform: [$platform]:")
+        console.println("Hello World!\n" +
+                "This is a shared code between multiple runtimes.\n" +
+                "Current platform: [$platform]:")
     }
 
     /**
